@@ -4,20 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/librarybg">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        app:tabIndicatorColor="@color/black"
-        app:tabSelectedTextColor="@color/black"
-        app:tabTextColor="@color/black" />
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/audiowide"
+        android:text="AAMEC\n  Library"
+        android:textSize="31sp" />
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_shadowColorDark="#CDD5EA"
+        app:neumorph_shadowColorLight="@color/white"
+        app:neumorph_shadowElevation="10dp"
+        app:neumorph_shapeAppearance="@style/NeumorphismCard">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/deep_sky_blue"
+            app:tabSelectedTextColor="@color/deep_sky_blue"
+            app:tabTextColor="@color/deep_sky_blue"
+            android:background="@color/white"/>
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
-           android:layout_below="@id/tabLayout"
-            android:layout_height="750dp"/>
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent"/>
+
+    </soup.neumorphism.NeumorphCardView>
 
 </RelativeLayout>
