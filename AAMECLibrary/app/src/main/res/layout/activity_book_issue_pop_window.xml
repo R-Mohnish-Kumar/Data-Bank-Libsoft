@@ -1,0 +1,103 @@
+<soup.neumorphism.NeumorphCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.ui.books.BookIssuePopWindowActivity"
+    android:layout_centerHorizontal="true"
+    app:neumorph_backgroundColor="#E4EBF4"
+    app:neumorph_shadowColorDark="#CDD5EA"
+    app:neumorph_shadowColorLight="#F8F9FE"
+    app:neumorph_shadowElevation="@dimen/_8sdp"
+    app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/bookDetailsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:-"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/popWindowBookName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BookName"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author:-"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/popWindowBookAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AuthorName"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Publisher:-"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/popWindowBookPublishers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PublisherName"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@id/bookDetailsLinearLayout">
+            <Button
+                android:id="@+id/popWindowBookIssueButton"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle"
+                android:text="Issue"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</soup.neumorphism.NeumorphCardView>

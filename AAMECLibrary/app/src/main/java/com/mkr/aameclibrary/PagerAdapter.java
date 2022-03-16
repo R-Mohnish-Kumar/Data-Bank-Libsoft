@@ -5,6 +5,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+import com.mkr.aameclibrary.Admin.AdminFragment;
+import com.mkr.aameclibrary.Staff.StaffFragment;
+import com.mkr.aameclibrary.Student.StudentFragment;
+
 public class PagerAdapter extends FragmentStateAdapter {
     String title[] = new String[]{"Admin","Staff","Student"};
 

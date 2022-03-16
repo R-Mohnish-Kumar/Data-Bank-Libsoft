@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/books">
+
+    <fragment
+        android:id="@+id/edit_books"
+        android:name="com.mkr.aameclibrary.Admin.ui.edit_books.EditBooksFragment"
+        android:label="Add a new Book"
+        tools:layout="@layout/fragment_edit_books" />
+
+    <fragment
+        android:id="@+id/books"
+        android:name="com.mkr.aameclibrary.Admin.ui.books.BooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/book_holders"
+        android:name="com.mkr.aameclibrary.Admin.ui.book_holders.BookHoldersFragment"
+        android:label="Book Holders"
+        tools:layout="@layout/fragment_book_holders" />
+</navigation>

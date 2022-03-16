@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit_books"
+            android:icon="@drawable/ic_launcher_edit_books"
+            android:title="Add a new Book" />
+        <item
+            android:id="@+id/books"
+            android:icon="@drawable/ic_launcher_books"
+            android:title="Books" />
+        <item
+            android:id="@+id/book_holders"
+            android:icon="@drawable/ic_launcher_book_holder"
+            android:title="Book Holders" />
+    </group>
+</menu>

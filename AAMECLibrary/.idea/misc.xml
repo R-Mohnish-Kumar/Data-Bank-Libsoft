@@ -3,12 +3,68 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.109" />
+        <entry key="app/src/main/res/drawable/ic_databank_libsoft_logo_foreground.xml" value="0.109" />
+        <entry key="app/src/main/res/drawable/ic_launcher_book_holder.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_launcher_books.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_launcher_editBooks.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_launcher_edit_books.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_profile_foreground.xml" value="0.1235" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.1585" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1235" />
+        <entry key="app/src/main/res/layout-hdpi/activity_main.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout-hdpi/activity_staff_book_issue_pop_window.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout-ldpi/activity_main.xml" value="0.55" />
+        <entry key="app/src/main/res/layout-mdpi/activity_main.xml" value="0.45" />
+        <entry key="app/src/main/res/layout-xhdpi/activity_main.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout-xxhdpi/activity_main.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/activity_admin_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/activity_book_issue_pop_window.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout/activity_staff_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/activity_student_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/app_bar_admin_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/app_bar_staff_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/app_bar_student_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/book_holder_row_item.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout/books_issued_row_item.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/books_row_item.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/content_admin_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/content_staff_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/content_student_home.xml" value="0.16304347826086957" />
         <entry key="app/src/main/res/layout/example_layout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_admin.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_book_holders.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_books.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_edit_books.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.16304347826086957" />
         <entry key="app/src/main/res/layout/fragment_staff.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_staff_book_holders.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout/fragment_staff_books.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_staff_profile.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_student.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_student_books.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout/fragment_student_books_issued.xml" value="0.11069340016708437" />
+        <entry key="app/src/main/res/layout/fragment_student_profile.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/nav_header_admin_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/nav_header_staff_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/nav_header_student_home.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/staff_books_issued_fragment.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/menu/activity_admin_drawer.xml" value="0.22362869198312235" />
+        <entry key="app/src/main/res/menu/activity_admin_home_drawer.xml" value="0.2264957264957265" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.2264957264957265" />
+        <entry key="app/src/main/res/menu/activity_staff_drawer.xml" value="0.22362869198312235" />
+        <entry key="app/src/main/res/menu/activity_staff_home_drawer.xml" value="0.2264957264957265" />
+        <entry key="app/src/main/res/menu/activity_student_drawer.xml" value="0.22362869198312235" />
+        <entry key="app/src/main/res/menu/admin_home.xml" value="0.2264957264957265" />
+        <entry key="app/src/main/res/menu/staff_home.xml" value="0.2264957264957265" />
+        <entry key="app/src/main/res/menu/student_home.xml" value="0.22362869198312235" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_profile_round.xml" value="0.1235" />
       </map>
     </option>
   </component>

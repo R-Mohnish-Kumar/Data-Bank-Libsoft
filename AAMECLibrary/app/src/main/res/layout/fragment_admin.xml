@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AdminFragment">
+    tools:context=".Admin.AdminFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -68,7 +68,7 @@
             android:textSize="12sp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/loginButton"
+            android:id="@+id/adminLoginButton"
             android:layout_width="140dp"
             android:layout_height="43dp"
             android:layout_gravity="center"
@@ -81,5 +81,12 @@
             android:textColor="@color/white" />
 
     </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:progressTint="@color/deep_sky_blue"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
 
 </FrameLayout>

@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "AAMEC Library"
+rootProject.name = "Data Bank Libsoft"
 include ':app'

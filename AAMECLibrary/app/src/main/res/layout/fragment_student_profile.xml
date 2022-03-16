@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.ui.student_profile.StudentProfileFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="122dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/id"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp">
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentRegisterNoRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:drawable/ic_menu_info_details"
+                    android:backgroundTint="@color/deep_sky_blue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Register No:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentRegisterNoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="30dp"
+                    android:text="123456789"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="80dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentNameRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/deep_sky_blue"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/ic_baseline_person_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Name:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="30dp"
+                    android:text="R Mohnishkumar"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="150dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentDobRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/deep_sky_blue"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:drawable/ic_menu_day" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Date of Birth:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentDobTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="30dp"
+                    android:text="25-03-2002"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="220dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentYearRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/deep_sky_blue"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:drawable/ic_menu_myplaces" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Year:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentYearTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Third"
+                    android:layout_marginTop="30dp"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="290dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentDepartmentRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/deep_sky_blue"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:drawable/ic_menu_today" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Department:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentDepartmentTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Information Technology"
+                    android:layout_marginTop="30dp"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="360dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+            <RelativeLayout
+                android:id="@+id/studentCollegeRelativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/deep_sky_blue"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:drawable/ic_menu_mapmode" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="College:"
+                    android:textColor="@color/deep_sky_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/studentCollegeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Anjalai Ammal Mahalingam Engineering College"
+                    android:layout_marginTop="30dp"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

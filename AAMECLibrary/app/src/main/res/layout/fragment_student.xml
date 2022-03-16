@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".StudentFragment">
+    tools:context=".Student.StudentFragment">
 
     <LinearLayout
         android:id="@+id/studentLinearLayout"
@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:hint="student id"
+                android:hint="register number"
                 android:textCursorDrawable="@drawable/text_cursor_color"
                 android:inputType="textPersonName"
                 android:padding="15dp"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/transparent"
                 android:ems="5"
-                android:hint="password"
+                android:hint="dob(YYYY-MM-DD)"
                 android:textCursorDrawable="@drawable/text_cursor_color"
                 android:inputType="textPassword"
                 android:padding="15dp"
@@ -53,19 +53,6 @@
                 android:textColorHint="@color/black"
                 android:textSize="18sp" />
         </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:id="@+id/studentForgotPasswordTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="@android:color/transparent"
-            android:clickable="true"
-            android:text="Forgot password?"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/studentLoginButton"
@@ -81,4 +68,11 @@
             android:textColor="@color/white" />
 
     </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:progressTint="@color/deep_sky_blue"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
 </FrameLayout>

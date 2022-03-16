@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/staff_books">
+
+    <fragment
+        android:id="@+id/staff_profile"
+        android:name="com.mkr.aameclibrary.Staff.ui.staff_profile.StaffProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_staff_profile" />
+
+    <fragment
+        android:id="@+id/staff_books"
+        android:name="com.mkr.aameclibrary.Staff.ui.staff_books.StaffBooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_staff_books" />
+
+    <fragment
+        android:id="@+id/staff_book_holders"
+        android:name="com.mkr.aameclibrary.Staff.ui.staff_book_holders.StaffBookHoldersFragment"
+        android:label="Book Holders"
+        tools:layout="@layout/fragment_staff_book_holders" />
+    <fragment
+        android:id="@+id/staff_book_issued"
+        android:name="com.mkr.aameclibrary.Staff.ui.staff_book_issued.StaffBooksIssuedFragment"
+        android:label="Books Issued"
+        tools:layout="@layout/staff_books_issued_fragment" />
+</navigation>

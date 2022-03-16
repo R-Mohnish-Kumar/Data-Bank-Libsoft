@@ -2,6 +2,11 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/akaya_telivigala</item>
+        <item>@font/arbutus</item>
         <item>@font/audiowide</item>
+        <item>@font/baumans</item>
+        <item>@font/calistoga</item>
+        <item>@font/cutive</item>
+        <item>@font/krona_one</item>
     </array>
 </resources>

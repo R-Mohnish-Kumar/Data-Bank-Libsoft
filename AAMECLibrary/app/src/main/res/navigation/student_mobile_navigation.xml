@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/student_books">
+
+    <fragment
+        android:id="@+id/student_profile"
+        android:name="com.mkr.aameclibrary.Student.ui.student_profile.StudentProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_student_profile" />
+
+    <fragment
+        android:id="@+id/student_books"
+        android:name="com.mkr.aameclibrary.Student.ui.student_books.StudentBooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_student_books" />
+
+    <fragment
+        android:id="@+id/student_books_issued"
+        android:name="com.mkr.aameclibrary.Student.ui.student_books_issued.StudentBooksIssuedFragment"
+        android:label="Books Issued"
+        tools:layout="@layout/fragment_student_books_issued" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618468435271",
+    "project_id": "aamec-library",
+    "storage_bucket": "aamec-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618468435271:android:9069486df3ed7eccb05862",
+        "android_client_info": {
+          "package_name": "com.mkr.aameclibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618468435271-7o7mlcrqsbjthe40ombo222uv1uvgtv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7oSxeS1YpzldKvXscTbIK6TgCjHz2Hvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618468435271-7o7mlcrqsbjthe40ombo222uv1uvgtv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
