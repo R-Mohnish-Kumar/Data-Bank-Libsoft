@@ -1,7 +1,7 @@
 
-# The Data Talk
+# Data Bank Libsoft
 
-An android project comprising the facilities of The Data Talk website. Which facilitates the user with online courses, webinar sessions related to Data Science and Machine learning, online test sessions, raising any kind of query, blog section, Job referral and many more.
+Developed a Department Library application for the management of books. Facilitated the access  of books to Students and Faculty members. Admin was able to maintain the database neglecting the old Pen-Paper mode.
 
 
 ## Technology used
